@@ -1,0 +1,1 @@
+- This PC Don't authorize by admin, must to use in branch mode
