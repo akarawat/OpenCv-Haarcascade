@@ -1,0 +1,5 @@
+letter_recog.py
+houghcircles.py > Detect circle
+facedetect.py > 
+deconvolution.py > Edit blur images * Awesome
+camshift.py > face tracking

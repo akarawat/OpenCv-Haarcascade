@@ -38,6 +38,7 @@ def main():
     hog = cv.HOGDescriptor()
     hog.setSVMDetector( cv.HOGDescriptor_getDefaultPeopleDetector() )
 
+    # default = [cv.samples.findFile('youngsters.jpg')] if len(sys.argv[1:]) == 0 else []
     default = [cv.samples.findFile('basketball2.png')] if len(sys.argv[1:]) == 0 else []
 
     for fn in it.chain(*map(glob, default + sys.argv[1:])):
