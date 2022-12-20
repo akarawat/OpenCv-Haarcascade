@@ -144,11 +144,14 @@ def main():
     opts, args = getopt.getopt(sys.argv[1:], '', ['feature='])
     opts = dict(opts)
     feature_name = opts.get('--feature', 'brisk')
+    
+
     try:
         fn1, fn2 = args
     except:
         fn1 = 'walnut.png'
         fn2 = 'walnut_mix.png'
+    
 
     img1 = cv.imread(cv.samples.findFile(fn1), cv.IMREAD_GRAYSCALE)
     img2 = cv.imread(cv.samples.findFile(fn2), cv.IMREAD_GRAYSCALE)
