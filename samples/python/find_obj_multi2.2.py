@@ -1,5 +1,7 @@
 # pip install imutils
 # python.exe -m pip install --upgrade pip
+# python3 -m pip install opencv-python
+# 
 import os
 import cv2
 import numpy as np
@@ -15,7 +17,6 @@ for path in os.listdir(dir_path):
 def main():
     # Reading the image and the template
     #img = cv2.imread('pictures/capture_img.png')
-    
     
     iLoop = 0
     while True:

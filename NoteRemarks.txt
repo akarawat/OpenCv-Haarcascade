@@ -23,3 +23,6 @@ For simple, we can add repositories from Github.com Web
 and Clone project into folder. 
 ex. #git clone xxxxx.git
 ......
+# pip install imutils
+# python.exe -m pip install --upgrade pip
+# python3 -m pip install opencv-python
