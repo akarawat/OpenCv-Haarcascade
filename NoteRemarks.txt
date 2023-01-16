@@ -26,3 +26,7 @@ ex. #git clone xxxxx.git
 # pip install imutils
 # python.exe -m pip install --upgrade pip
 # python3 -m pip install opencv-python
+
+------
+https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera/
+https://www.okdo.com/getting-started/get-started-with-jetson-nano-4gb-and-csi-camera/
